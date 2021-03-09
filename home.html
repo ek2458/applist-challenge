@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="selection">
+      <button type="button" class="btn btn-light" id="rankUp">
+        Rank: High
+      </button>
+      <button type="button" class="btn btn-light" id="rankDown">
+        Rank: Low
+      </button>
+      <button type="button" class="btn btn-light" id="nameUp">
+        Name: High
+      </button>
+      <button type="button" class="btn btn-light" id="nameDown">
+        Name: Low
+      </button>
+    </div>
+    <div class="main">
+      <div class="main-header">
+        <h1>Top Apps in 2020</h1>
+      </div>
+      <div class="app-lists">
+        <!-- where the app goes -->
+        <div class="list-header">
+          <div class="list-icon">ICON</div>
+          <div class="list-name">NAME</div>
+          <div class="list-rank">RANK</div>
+        </div>
+      </div>
+      <div class="list"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
